@@ -47,3 +47,4 @@ ENTRYPOINT [ "/ws/src/rae-ros/entrypoint.sh" ]
 RUN rm -rf /usr/share/doc
 
 CMD ["zsh"]
+RUN echo "welcome ~ "
